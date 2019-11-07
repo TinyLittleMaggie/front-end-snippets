@@ -1,0 +1,44 @@
+.danger-container {
+  width: 450px;
+  height: 300px;
+  background-color: #fff;
+  color: #3e3f39;
+  /*border: 2px solid #de2250;*/
+  border-radius: 12px;
+  position: relative;
+  padding: 40px;
+  box-shadow: 1px 1px 8px 0 rgba(222, 34, 80, 0.2);
+}
+.danger-text {
+  flex-grow: 1;
+}
+.danger-container h1 {
+  color: #de2250;
+  position: absolute;
+  left: 5px;
+  top: -60px;
+  font-size: 24px;
+  opacity: 60%;
+}
+.zero-hover {
+  text-decoration: none;
+  background-color: #de2250;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.one-hover {
+  text-decoration: none;
+  background-color: #de2250;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 30px 0;
+  transform: translate(235px, 0);
+  transition: transform 0.3s ease;
+}

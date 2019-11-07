@@ -1,0 +1,22 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+
+/* Components */
+@import url("components/danger-container.css");
+@import url("components/back-button.css");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(222, 34, 80, 0.1);
+  position: relative;
+}
+
+
