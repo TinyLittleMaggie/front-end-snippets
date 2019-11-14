@@ -6,7 +6,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 .container {
-  max-width: 900px;
+  max-width: 920px;
   margin: 60px auto;
   text-align: center;
 }
@@ -19,15 +19,21 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.cards::after {
+  /* forces left alignment on the last row */
+  content: "";
+  flex: auto;
+}
 .card {
-  width: 320px;
+  width: 300px;
   height: 350px;
   display: inline-block;
   text-align: left;
+  margin: 5px;
 }
 .card img {
   width: 100%;
-  height: 250px;
+  height: 235px;
   object-fit: cover;
 }
 .card a {
